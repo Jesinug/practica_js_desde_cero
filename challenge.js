@@ -15,7 +15,7 @@ const availableFemaleNames = ['cecilia', 'ana', 'luisa', 'silvia', 'isabel', 'vi
 const availableGenders = ['male', 'female'];
 
 
-// ---- ARRAY ---- //
+// ---- students object's array ---- //
 const students = [
   {
   age: 32,
@@ -29,31 +29,6 @@ const students = [
   gender: 'female',
   name: 'silvia'
 },
-{
-  age: 23,
-  examScores: [],
-  gender: availableGenders[1],
-  name: availableFemaleNames[2]
-},
-
-{
-  age: 20,
-  examScores: [],
-  gender: availableGenders[1],
-  name: availableFemaleNames[0]
-},
-{
-  age: 35,
-  examScores: [],
-  gender: availableGenders[0],
-  name: availableFemaleNames[5]
-},
-{
-  age: 22,
-  examScores: [],
-  gender: availableGenders[1],
-  name: availableFemaleNames[4]
-  },
 ]
 
 
@@ -146,7 +121,6 @@ function task9() {
 task9()
 
 //* Requisito 10 - Añadir alumno nuevo
-
 function nameByGender(gender) {
   let choosenName = '';
   if (gender === 'male') {
